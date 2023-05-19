@@ -1,0 +1,24 @@
+.logo{
+    height: 4rem;
+    margin: .5rem;
+    margin-left: 1rem;
+}
+.avatar{
+    height: 4rem;
+    margin: .5rem;
+    margin-right: 2rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+}
+/* BREAKPOINTS */
+@media only screen and (max-width : 600px) {
+    .logo{
+        height: 2rem;
+    }
+    .avatar{
+        height: 2rem;
+    }
+}

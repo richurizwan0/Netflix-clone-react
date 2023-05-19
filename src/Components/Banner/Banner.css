@@ -1,0 +1,51 @@
+.banner{
+    aspect-ratio: 16/9;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+    padding-left: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 0px 0px 6px #111;
+}
+.title{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.description{
+    font-size: 1.3rem;
+    max-width: 33rem;
+    text-shadow: 0px 0px 5px #111;
+}
+.button{
+    padding: .5rem 1.3rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    border: none;
+    background: #fff;
+    border-radius: .3rem;
+    opacity: 0.7;
+    transition: .5s ease;
+}
+.button:hover{
+    opacity: 1;
+}
+.buttons{
+    margin-top: 1rem;
+}
+
+/* BREAKPOINTS*/
+@media only screen and (max-width: 600px){
+    .title{
+        font-size: 1.3rem;
+    }
+    .description{
+        font-size: .7rem;
+    }
+    .button{
+        padding: .5rem 1.3rem;
+        font-size: .7rem;
+        color: #111;
+    }
+}
